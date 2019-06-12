@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Kitana",
+        "image": "../assets/images/kitana.jpg"
+    },
+    {
+        "id": 2,
+        "name": "predator",
+        "image": "../assets/images/predator.jpg"
+    },
+    {
+        "id": 3,
+        "name": "raiden",
+        "image": "../assets/images/raiden.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "scorpion",
+        "image": "../assets/images/scorpion.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "subzero",
+        "image": "../assets/images/subzero.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "barak",
+        "image": "../assets/images/baraka.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "assasin",
+        "image": "../assets/images/hatguy.jpg"
+    },
+    {
+        "id": 8,
+        "name": "kitana",
+        "image": "../assets/images/kitana.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Poison",
+        "image": "../assets/images/poison.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "goro",
+        "image": "../assets/images/goro.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "blade",
+        "image": "../assets/images/hatguy.jpg"
+    },
+    {
+        "id": 12,
+        "name": "jason",
+        "image": "../assets/images/jason.png"
+    },
+    {
+        "id": 13,
+        "name": "tremor",
+        "image": "../assets/images/tremor.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "ultimate",
+        "image": "../assets/images/ultimate.png"
+    }
+]
