@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Card from "../Card";
-import Data from "../../fighter.json";
+import Data from "../../fighter.json"; //fixed fighter route
 import Nav from "../Navbar";
 import Jumbotron from "../Jumbotron";
 import './style.scss';
@@ -15,7 +15,7 @@ class Game extends Component {
     }
 
     componentDidMount() {
-        const { Data } = this.state;
+        const { Data } = this.state; // initializing my fighters Data 
         this.RadomizeCards(Data);
     }
 
@@ -44,7 +44,9 @@ class Game extends Component {
             highScore: highScore
         })
     }
-    // stole this snippet from stackoverflow
+    // stole this snippet from stackoverflow & figured out how
+    // to convert it inside my handleclick event + CpDidmount
+    //where if "i" would decrement inside var i and var j will increase
     RadomizeCards = (array) => {
         for (var i = array.length - 1; i > 0; i--) {
             var j = Math.floor(Math.random() * (i + 1));
